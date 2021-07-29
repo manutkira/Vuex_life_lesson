@@ -1,5 +1,5 @@
 import { createStore } from "vuex";
-import { testPosts } from "../../Micro_blog/microblog/testPosts.js";
+import { testPosts } from "./testPosts.js";
 
 const delay = () => new Promise((res) => setTimeout(res, 1000));
 
